@@ -2,6 +2,8 @@ body{
     text-align: center;
     font-family: Roboto, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header, .footer, .hero-content
@@ -18,7 +20,6 @@ body{
 .header, .hero-content
 {
     padding: 100px 100px;
-
 }
 
 .header
@@ -132,10 +133,12 @@ body{
 .cta
 {
     display: flex;
-    margin: 100px;
+    margin: 100px auto;
     border-radius: 6px;
     padding: 50px 75px;
     align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
 
 .cta, a
@@ -158,13 +161,13 @@ a
     border-color: #F9FAF8;
     border-width: 2px;
     border-style: solid;
+    flex-grow: 0;
 }
 
 .cta-text
 {
     text-align: left;
     color:#F9FAF8;
-    margin-right: auto;
 }
 
 .cta-title
