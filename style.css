@@ -15,11 +15,18 @@ body{
     color: #E5E7EB;
 }
 
+.header, .hero-content
+{
+    padding: 100px 100px;
+
+}
+
 .header
 {
     display: flex;
     gap:16px;
-    background-color: #1F2937;
+    padding-top: 16px;
+    padding-bottom: 0;
 }
 
 .logo
@@ -33,11 +40,18 @@ body{
 .hero-content
 {
     display:flex;
+    gap: 16px;
 }
 
 .hero-description
 {
     text-align: left;
+    flex:1;
+}
+
+.hero-description > *
+{
+    margin-bottom: 16px;
 }
 
 .hero-title
@@ -45,6 +59,16 @@ body{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.hero-image
+{
+    flex:1;
+    background-color: gray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#F9FAF8
 }
 
 .information-content
@@ -151,4 +175,10 @@ a
 .cta-subtitle
 {
     font-size: 14px;
+}
+
+.footer
+{
+    color:#F9FAF8;
+    padding: 16px;
 }
