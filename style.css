@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+
+.header
+{
+    display: flex;
+    gap:16px;
+}
+
+.logo
+{
+    margin-right: auto;
+}
+
+.hero-content
+{
+    display:flex;
+}
+
+.hero-description
+{
+    text-align: left;
+}
+
+.information-cards
+{
+    display: flex;
+}
+
+.cta
+{
+    display: flex;
+}
